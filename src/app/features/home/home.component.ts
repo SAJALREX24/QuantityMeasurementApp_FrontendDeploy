@@ -23,7 +23,7 @@ import { RouterLink } from '@angular/router';
 
             <p class="hero-subtitle animate-in" style="animation-delay: 0.2s">
               A modern calculator for length, weight, volume, and temperature.
-              Compare quantities, run arithmetic, or convert between units —
+              Compare quantities, run arithmetic, or convert between units -
               all in a few taps.
             </p>
 
@@ -71,7 +71,7 @@ import { RouterLink } from '@angular/router';
                     <span class="preview-unit">Celsius</span>
                   </div>
                 </div>
-                <div class="preview-arrow">↓</div>
+                <div class="preview-arrow">†“</div>
                 <div class="preview-row">
                   <div class="preview-label">To</div>
                   <div class="preview-input result">
@@ -566,7 +566,7 @@ export class HomeComponent {
       letter: 'T',
       gradient: 'linear-gradient(135deg, #06b6d4, #10b981)',
       desc: 'Convert between Celsius, Fahrenheit, and Kelvin.',
-      units: ['°C', '°F', 'K'],
+      units: ['Â°C', 'Â°F', 'K'],
     },
   ];
 }

@@ -577,7 +577,7 @@ export class CalculatorComponent {
         this.svc.compare(input).subscribe({
           next: (equal) => {
             this.resultDisplay = equal ? 'Equal' : 'Not Equal';
-            this.resultDetail = `${this.value1} ${this.unit1} ${equal ? '=' : '≠'} ${this.value2} ${this.unit2}`;
+            this.resultDetail = `${this.value1} ${this.unit1} ${equal ? '=' : '‰ '} ${this.value2} ${this.unit2}`;
             this.resultClass = equal ? 'equal' : 'not-equal';
             this.done();
           },

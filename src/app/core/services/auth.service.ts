@@ -2,10 +2,11 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable, tap } from 'rxjs';
 import { LoginDTO, RegisterDTO, UserProfile } from '../models/user.model';
+import { environment } from '../../../environments/environment';
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
-  private readonly API = 'http://localhost:5042/api/auth';
+  private readonly API = `${environment.apiUrl}/api/auth`;
   private readonly TOKEN_KEY = 'qm_token';
   private readonly USER_KEY = 'qm_user';
 

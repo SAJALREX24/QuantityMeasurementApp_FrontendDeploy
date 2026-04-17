@@ -9,9 +9,11 @@ import {
   Stats,
 } from '../models/quantity.model';
 
+import { environment } from '../../../environments/environment';
+
 @Injectable({ providedIn: 'root' })
 export class QuantityService {
-  private base = 'http://localhost:5042/api/quantity';
+  private base = `${environment.apiUrl}/api/quantity`;
 
   constructor(private http: HttpClient) {}
 

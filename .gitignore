@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output
+dist/
+.angular/
+out-tsc/
+
+# IDE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.suo
+*.user
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment (keep templates, ignore local overrides)
+src/environments/environment.local.ts
+
+# Logs
+*.log
+npm-debug.log*
+
+# Misc
+.sass-cache/
+connect.lock
+coverage/
+typings/
