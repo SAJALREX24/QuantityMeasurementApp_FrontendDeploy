@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'RENDER_API_URL_PLACEHOLDER'
+  apiUrl: '__API_URL__'
 };
